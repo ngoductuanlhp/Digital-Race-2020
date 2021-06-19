@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "browse": {
+                "databaseFilename": "",
+                "limitSymbolsToIncludedHeaders": true
+            },
+            "includePath": [
+                "/home/tuan/catkin_build_ws/install/include/**",
+                "/home/tuan/catkin_ws/devel/include/**",
+                "/opt/ros/melodic/include/**",
+                "/home/tuan/catkin_ws/src/ros_astra_camera/include/**",
+                "/home/tuan/catkin_ws/src/dira_mpu9250_controller/include/**",
+                "/home/tuan/catkin_ws/src/dira_pca8266_controller/include/**",
+                "/home/tuan/catkin_ws/src/dira_peripheral_controller/include/**",
+                "/home/tuan/catkin_ws/src/keyboard/include/**",
+                "/home/tuan/catkin_ws/src/team113/include/**",
+                "/usr/include/**"
+            ],
+            "name": "ROS",
+            "intelliSenseMode": "gcc-x64",
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c11",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}

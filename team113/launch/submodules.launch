@@ -1,0 +1,20 @@
+<launch>
+    <!-- Astra Camera -->
+    <!-- <include file = "$(find astra_camera)/launch/astra.launch" /> -->
+
+    <!-- Peripheral devices -->
+    <include file = "$(find dira_peripheral_controller)/launch/dira_peripheral_controller.launch" />
+
+    <!-- Traxxas controller -->
+    <include file = "$(find dira_pca9685_controller)/launch/run_car.launch" />
+
+    <!-- MPU9250 -->
+    <!-- <include file = "$(find dira_mpu9250_controller)/launch/dira_mpu9250_controller.launch" /> -->
+
+    <!-- RPLidar -->
+    <!-- <include file = "$(find rplidar_ros)/launch/rplidar.launch" /> -->
+
+    <!-- Read key pressed from host keyboard -->
+    <!-- <include file = "$(find keyboard)/launch/keyboard.launch" /> -->
+    <!-- <node pkg = "keyboard" name = "keyboard_node" type = "keyboard"/> -->
+</launch>

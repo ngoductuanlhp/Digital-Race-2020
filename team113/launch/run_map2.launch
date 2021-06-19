@@ -1,0 +1,3 @@
+<launch>
+    <node pkg = "team113" name = "run3_node" type = "run_map2.py" output = "screen"/>
+</launch>

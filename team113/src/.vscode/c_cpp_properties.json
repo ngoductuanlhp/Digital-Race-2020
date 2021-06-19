@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "browse": {
+                "databaseFilename": "",
+                "limitSymbolsToIncludedHeaders": true
+            },
+            "includePath": [
+                "/home/quan/catkin_ws/devel/include/**",
+                "/home/quan/catkin_build_ws/install/include/**",
+                "/opt/ros/melodic/include/**",
+                "/home/quan/catkin_ws/src/dira_package/ros_astra_camera/include/**",
+                "/home/quan/catkin_ws/src/dira_package/team113/include/**",
+                "/usr/include/**"
+            ],
+            "name": "ROS",
+            "intelliSenseMode": "gcc-x64",
+            "compilerPath": "/usr/bin/clang",
+            "cStandard": "c11",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}

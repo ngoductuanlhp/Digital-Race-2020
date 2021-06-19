@@ -1,0 +1,15 @@
+<launch>
+
+	<include file = "$(find rosbridge_server)/launch/rosbridge_websocket.launch">
+		<param name = "port" value = "9090"/>
+	</include>
+
+    <!-- Create team113_node (main node) -->
+    <!-- <node pkg = "team113" name = "run_node" type = "team113_node" output = "screen">
+        <param name="image_transport" value="compressed"/>
+    </node> -->
+
+    <node pkg = "joy" name = "joy_node" type = "joy_node" />
+
+    <node pkg = "team113" name = "run_node" type = "run_simulation.py" output = "screen"/>
+</launch>

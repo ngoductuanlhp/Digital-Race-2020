@@ -1,0 +1,15 @@
+*.py[cod]
+*/*/*/__pycache__/
+*/*/__pycache__/
+*/__pycache__/
+__pycache__/
+eggs/
+.eggs/
+build/
+dist/
+*.egg-info/
+*.egg
+*.pyc
+*.o
+*.so
+*.cpython-36
